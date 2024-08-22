@@ -9,4 +9,5 @@ test('test', async ({ page }) => {
   await page.getByRole('link', { name: 'Apple iPhone 15 (128 GB) - Black' }).nth(1).click();
   const page1 = await page1Promise;
   await page1.getByRole('button', { name: 'Add to Cart' }).click();
+  /*comment*/
 });
